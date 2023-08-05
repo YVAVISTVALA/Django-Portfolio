@@ -1,0 +1,83 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilia Kevkhishvili</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100"  id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/ilia.jpg' %}" >
+                    <hr>
+                    <h4>გამარჯობა, მე ვარ ილია !</h4>
+                    <p>მე მიყვარს დაკვრა, ფული და ძილი</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h2>ჩემს შესახებ</h2>
+					<hr>
+					<p><h3>დაახლოებით 2 თვეა, რაც დამოუკიდებლად დავიწყე Back-End Development-ის შესწავლა, ამ დროის განმავლობაში უკვე შევქმენი რამდენიმე პროექტი, რისი ნახვაც GitHub-ზეცაა შესაძლებელი.</h3></p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>სამუშაო გამოცდილება</h4>
+                    <hr>
+                    <p>მცირე დროიდან გამომდინარე, ჯერჯერობით არ მაქვს სამუშაო გამოცდილება, თუმცა განვიხილავ ყველა იმ პროექტს, რაც მომცემს იმის საშუალებას, რომ განვვითარდე და მივიღო გამოცდილება</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>რა ვიცი?</h4>
+                    <hr>
+                    <p>Python, Django, HTML/CSS/JAVASCRIPT(საბაზისო დონეზე, რადგან ფრონტ-ენდი არაა ჩემი ძირითადი მიმართულება, თუმცა ვთვლი, რომ საბაზისო ცოდნა აუციებელია), Bootstrap, APIs.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>როგორ ვსწავლობ?</h4>
+                    <hr>
+                    <p>ჩემი ძირითადი სწავლის წყაროა Youtube. ყურებასთან ერთად ვწერ საკუთარ კოდს, თუ რაიმე არის გაუგებარი ვეძებ დოკუმენტაციებს და ვიგებ ამის შესახებ ყველაფერს, პროექტის დასრულების შემდეგ კი დამოუკიდებლად ვცდილობ გავაკეთო მსგავსი ვებ-საიტი და დავამატო ჩემი მოფიქრებული სიახლეები.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h4>უახლოესი მიზნები</h4>
+                    <hr>
+                    <p>ჩემი ამჟამინდელი მიზანია, რაც შეიძლება მეტი გამოცდილების დაგროვება და თვითგანვითარება, რაც შემდგომში უფრო მაღალ საფეხურზე ასვლაში დამეხმარება</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+
+    
+</body>
+</html>
+
+<!-- <img src="{% static 'images/ilia.jpg' %}" > -->
+
